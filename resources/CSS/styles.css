@@ -1,0 +1,177 @@
+    /* Universal Styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    font-weight: 600;
+}
+
+    /* Header Section */
+header {
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 67px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+
+.logo {
+    display: inline-flex;
+    height: 50px;
+    margin-left: 10px;
+    align-self: center;
+    max-width: 25%;
+}
+
+nav {
+    display: inline-flex;
+    text-decoration: underline;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+    margin: auto 10px;
+}
+
+    /* Main ruleset */
+main {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    /* Mission Section */
+#mission {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/resources/images/img-mission-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.mission-text {
+    background-color: black;
+    width: 100%;
+    max-height: 140px;
+}
+
+    /* Titles */
+h2, h4 {
+    margin: 10px auto;
+}
+
+    /* Featured Tea Section */
+#featured-tea {
+    display: flex;
+    max-width: 1000px;
+    flex-flow: column;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+
+.featured-tea-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+    /* Tea Images */
+.berry-blitz-tea img,
+.spiced-rum-tea img,
+.seasonal-donuts img,
+.myrtle-ave-tea img,
+.bedford-bizarre-tea img {
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+    /* Locations Section */
+#locations {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1200px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/resources/images/img-locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 25%;
+    width: 100%;
+}
+
+#locations h2 {
+    width: 63.5%;
+}
+
+.locations-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 63.5%;
+    height: 70%;
+}
+
+.locations-left,
+.locations-center,
+.locations-right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 1);
+    min-height: 230px;
+    width: 300px;
+    margin: 0 20px;
+}
+
+    /* Footer Section */
+footer{
+    width: 100%;
+}
+
+.contact-us{
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-us h2, .contact-us h5 {
+    margin: 18px auto;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
