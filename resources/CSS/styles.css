@@ -66,7 +66,7 @@ main {
     height: 700px;
     justify-content: center;
     align-items: center;
-    background-image: url('/resources/images/img-mission-background.webp');
+    background-image: url('../images/img-mission-background.webp');
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -122,7 +122,7 @@ h2, h4 {
     height: 500px;
     justify-content: center;
     align-items: center;
-    background-image: url('/resources/images/img-locations-background.webp');
+    background-image: url('../images/img-locations-background.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 25%;
